@@ -1,14 +1,26 @@
-   # Projekt UMwC 48789
-   To jest mój pierwszy projekt na GitHub. 🚀
+# ML Pipeline & Model Deployment
 
+A machine learning project demonstrating an automated CI/ML workflow using GitHub Actions.
 
-## 🧩 Continuous Integration – GitHub Actions
+## 🚀 Continuous Integration & Machine Learning
 
-Ten projekt zawiera workflow **CI-ML**, który:
-- uruchamia się automatycznie na push, PR lub manualnie,
-- instaluje zależności z plików `requirements*.txt`,
-- wykonuje lint (flake8) i format check (black),
-- uruchamia testy pytest,
-- trenuje model ML (Logistic Regression),
-- publikuje model jako artefakt z nazwą środowiska (`model-dev`, `model-prod`),
-- wykorzystuje repozytoryjne Variables i Secrets.
+The project includes an automated CI-ML pipeline that:
+
+- runs automatically on push, pull request, or manually,
+- installs project dependencies from `requirements*.txt` files,
+- performs code quality checks using **flake8** and **Black**,
+- runs automated tests with **pytest**,
+- trains a machine learning model using **Logistic Regression**,
+- publishes the trained model as an artifact with environment-specific names (`model-dev`, `model-prod`),
+- uses repository **Variables** and **Secrets** for configuration.
+
+## 🛠️ Technologies
+
+- Python
+- GitHub Actions
+- pytest
+- flake8
+- Black
+- Scikit-learn
+- Logistic Regression
+- Terraform
