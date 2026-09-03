@@ -24,3 +24,16 @@ The project includes an automated CI-ML pipeline that:
 - Scikit-learn
 - Logistic Regression
 - Terraform
+
+## 📁 Project Structure
+
+```text
+├── .github/workflows/   # GitHub Actions workflows
+├── src/                 # Source code
+├── tests/               # Automated tests
+├── outputs/             # Generated outputs and model artifacts
+├── aml-lab-01/          # Machine learning lab
+├── aml-lab-02/          # ML pipeline and model registry
+├── terraform_lab3/      # Terraform configuration
+├── requirements.txt     # Project dependencies
+└── requirements-dev.txt # Development dependencies
